@@ -17,7 +17,7 @@ class LoanSeeder extends Seeder
         DB::table('loan_details')->insert([
             [
                 'clientid' => 1007,
-                'num_of_payment' => 10,
+                'num_of_payment' => 11,
                 'first_payment_date' => '2020-03-15',
                 'last_payment_date' => '2021-01-15',
                 'loan_amount' => 2500.75,
@@ -53,7 +53,7 @@ class LoanSeeder extends Seeder
             ],
             [
                 'clientid' => 1018,
-                'num_of_payment' => 24,
+                'num_of_payment' => 25,
                 'first_payment_date' => '2021-09-10',
                 'last_payment_date' => '2023-09-10',
                 'loan_amount' => 8500.50,
@@ -80,7 +80,7 @@ class LoanSeeder extends Seeder
             ],
             [
                 'clientid' => 1025,
-                'num_of_payment' => 10,
+                'num_of_payment' => 11,
                 'first_payment_date' => '2021-11-20',
                 'last_payment_date' => '2022-09-20',
                 'loan_amount' => 2750.75,
@@ -98,7 +98,7 @@ class LoanSeeder extends Seeder
             ],
             [
                 'clientid' => 1030,
-                'num_of_payment' => 20,
+                'num_of_payment' => 21,
                 'first_payment_date' => '2020-08-15',
                 'last_payment_date' => '2022-04-15',
                 'loan_amount' => 7200.60,
@@ -116,7 +116,7 @@ class LoanSeeder extends Seeder
             ],
             [
                 'clientid' => 1035,
-                'num_of_payment' => 16,
+                'num_of_payment' => 17,
                 'first_payment_date' => '2022-12-12',
                 'last_payment_date' => '2024-04-12',
                 'loan_amount' => 5000.00,
@@ -125,13 +125,13 @@ class LoanSeeder extends Seeder
             ],
             [
                 'clientid' => 1038,
-                'num_of_payment' => 7,
+                'num_of_payment' => 8,
                 'first_payment_date' => '2021-04-20',
                 'last_payment_date' => '2021-11-20',
                 'loan_amount' => 2100.35,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
-        ]);
+        ]);        
     }
 }
