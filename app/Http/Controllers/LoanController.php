@@ -14,7 +14,7 @@ class LoanController extends Controller
     }
 
     public function index(){
-        $loanDetails = $this->loanService->fetchAllLoans(2);
+        $loanDetails = $this->loanService->fetchAllLoans(10);
         return view('admin.loan_details', compact('loanDetails'));
     }
 }

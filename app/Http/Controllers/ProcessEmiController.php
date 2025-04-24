@@ -25,7 +25,7 @@ class ProcessEmiController extends Controller
 
     public function showEmiDetails()
     {
-        $emiDetails = $this->emiService->getEmiDetailsPaginated(2);
+        $emiDetails = $this->emiService->getEmiDetailsPaginated(10);
 
         return view('admin.process_emis', compact('emiDetails'));
     }
