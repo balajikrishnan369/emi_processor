@@ -1,3 +1,6 @@
+versions i used:
+Laravel: 12.10.0
+PHP: 8.2.12
 db name: emi_processor -> change this in .env file.
 
 run below commands after clone this project.
